@@ -1,0 +1,22 @@
+import { IPublicTypeSnippet } from '@alilc/lowcode-types';
+declare const _default: {
+    snippets: IPublicTypeSnippet[];
+    componentName: string;
+    uri?: string;
+    title?: import("@alilc/lowcode-types").IPublicTypeTitleContent;
+    icon?: import("@alilc/lowcode-types").IPublicTypeIconType;
+    tags?: string[];
+    description?: string;
+    docUrl?: string;
+    screenshot?: string;
+    devMode?: "proCode" | "lowCode";
+    npm?: import("@alilc/lowcode-types").IPublicTypeNpmInfo;
+    props?: import("@alilc/lowcode-types").IPublicTypePropConfig[];
+    configure?: import("@alilc/lowcode-types").IPublicTypeFieldConfig[] | import("@alilc/lowcode-types").IPublicTypeConfigure;
+    experimental?: import("@alilc/lowcode-types").IPublicTypeAdvanced;
+    schema?: import("@alilc/lowcode-types").IPublicTypeComponentSchema;
+    group?: string | import("@alilc/lowcode-types").IPublicTypeI18nData;
+    category?: string | import("@alilc/lowcode-types").IPublicTypeI18nData;
+    priority?: number;
+};
+export default _default;
