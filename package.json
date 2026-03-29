@@ -1,0 +1,12 @@
+{
+  "name": "focusbeui",
+  "version": "0.1.1",
+  "description": "Focusbe UI component library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focusbe/focusbeui.git"
+  },
+  "author": "pengzai-dev",
+  "license": "MIT"
+}
